@@ -21,6 +21,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WheelSpeed.msg"
+  "msg/MsgStats.msg"
 )
 
 if(BUILD_TESTING)
